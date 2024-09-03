@@ -1,0 +1,92 @@
+.about-section
+  // background-image: url('../images/about-section-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  background-color #fff
+
+  &__container
+    position relative
+    text-align: center
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      text-align: start
+      padding 40px 0 60px 0
+    +above($breakpoints.md)
+      padding 50px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 61px 0 136px 0
+
+  &__img
+    position: absolute
+    width: 300px;
+    height: auto;
+    top: 170px;
+    right: -312px;
+    +above($breakpoints.sm)
+      width: 450px;
+      top: -141px;
+      right: -352px;
+    +above($breakpoints.md)
+      width: 600px;
+      top: -178px;
+      right: -513px;
+    +above($breakpoints.xxl)
+      width: 1021px;
+      top: -353px;
+      right: -884px;
+
+  &__icon
+    position: absolute
+    width: 50px;
+    height: auto;
+    bottom: 120px;
+    left: -70px;
+    +above($breakpoints.sm)
+      width: 100px;
+      bottom: 190px;
+      left: -150px;
+    +above($breakpoints.md)
+      width: 153px;
+      bottom: 170px;
+      left: -211px;
+    +above($breakpoints.xxl)
+      width: 183px;
+      bottom: 230px;
+      left: -259px;
+
+  &__title
+    padding 0 0 15px 0
+    +above($breakpoints.sm)
+      padding 0 0 30px 0
+    +above($breakpoints.md)
+      padding 0 0 40px 0
+    +above($breakpoints.xxl)
+      padding 0 0 46px 0
+
+  &__img-owner
+    width 300px
+    height: auto
+    margin 0 auto
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      width: 250px;
+      top: 120px;
+      left: -58px;
+    +above($breakpoints.md)
+      width: 350px;
+      top: 130px;
+      left: -60px;
+    +above($breakpoints.xxl)
+      width: 414px;
+      top: 146px;
+      left: -60px;
+
+  &__text-top
+    +above($breakpoints.sm)
+      padding-left 210px
+    +above($breakpoints.md)
+      padding-left 310px
+    +above($breakpoints.xxl)
+      padding-left 399px

@@ -1,0 +1,26 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-35.text-up
+        | Зарабатывайте от 
+        br.no-br
+        span.color-olive 270 000 рублей 
+        | ежемесячно 
+        br.no-br
+        | на услугах бухгалтерского 
+        br.no-br
+        | сопровождения ИП и ООО
+      .main-section__sub-title
+        img.main-section__sub-title-img(src="images/main-section-sub-title-img.png" loading="lazy" width="238" height="216" alt="image")
+        .font-w-medium.font-s-20
+          | Получите пошаговый план запуска 
+          br.no-br
+          | вашей собственной аутсорсинговой 
+          br.no-br
+          | компании по франшизе «ЦСБ»
+      form.main-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Получить план запуска
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1537" height="956" alt="image")

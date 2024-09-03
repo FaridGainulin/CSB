@@ -1,0 +1,13 @@
+header.header
+  .header__container
+    .header__brand
+      img.header__logo(src="images/header-logo.png" loading="lazy" width="392" height="473" alt="logo")
+      .header__text.font-s-16
+        .font-w-semi-bold.color-olive.text-up ЦЕНТР СОДЕЙСТВИЯ БИЗНЕСУ
+        .font-w-regular Франшиза аутсорсинговой <br> компании
+    .header__connection
+      a(href="tel:+78000000000")
+        img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="30" height="30" alt="icon")
+      include ../components/phone-number.pug
+
+      //- .header__call-me.font-w-bold.font-s-12(data-remodal-target="modal-form-call-me") Заказать звонок

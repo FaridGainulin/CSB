@@ -1,0 +1,45 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-bold.font-s-30.text-up
+        | Откройте аутсорсинговую 
+        br.no-br
+        | компанию по франшизе «ЦСБ» 
+        br.no-br
+        | и получайте от 
+        span.color-olive 270 000 рублей 
+        br.no-br
+        | чистой прибыли 
+        span.color-olive ежемесячно
+      .city-section__sub-title
+        img.city-section__sub-title-img(src="images/city-section-sub-title-img.png" loading="lazy" width="260" height="201" alt="icon")
+        .font-w-medium.font-s-20
+          | Проверьте, свободен ли 
+          br.no-br
+          | ваш город для работы
+      form.city-section__form(data-feedback-form)
+        img.city-section__form-img(src="images/city-section-form-img.png" loading="lazy" width="236" height="190" alt="icon")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Проверить
+
+      //- .city-section__text.font-s-20
+      //-   | Получите договор, в котором описаны наши обязанности 
+      //-   br.no-br
+      //-   | и условия работы с франчайзи
+      //- include ../components/footer.pug
+      //- img.city-section__mark-line(src="images/mark-line-city.svg" loading="lazy" width="534" height="96" alt="icon")
+
+      //- .city-section__top
+      //-   .font-w-bold.font-s-42
+      //-     | Хотите узнать все детали 
+      //-     br.no-br
+      //-     | сотрудничества?
+      //-   .city-section__top-sub-title.font-s-20
+      //-     | Получите договор, в котором описаны наши обязанности 
+      //-     br.no-br
+      //-     | и условия работы с франчайзи
+      //-   form.city-section__top-form(data-feedback-form)
+      //-     input.input.input--secondary.city-item-2(type="text" name="name" autocomplete="off" placeholder="Имя")
+      //-     input.input.input--secondary.city-item-2(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+      //-     button.btn.city-item-2(type="submit") Получить

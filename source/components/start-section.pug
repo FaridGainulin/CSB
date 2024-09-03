@@ -1,0 +1,45 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      img.start-section__img(src="images/start-section-img.png" loading="lazy" width="1727" height="1705" alt="image")
+      img.start-section__icon(src="images/start-section-icon.png" loading="lazy" width="514" height="514" alt="icon")
+      h2.start-section__title.font-w-bold.font-s-35.text-up
+        | Вы можете выбрать один из доступных 
+        span.color-olive форматов 
+        br.no-br
+        span.color-olive для успешного старта 
+        | в этой нише
+      .swiper-start
+        .start-section__cards.swiper-wrapper
+          .start-section__card.swiper-slide
+            img.start-section__item-icon(src="images/start-section-item-icon.png" loading="lazy" width="76" height="76" alt="icon")
+            .font-w-bold.font-s-35.text-up.color-olive Из дома без <br> аренды офиса
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="786" height="512" alt="icon")
+            .font-w-bold.font-s-24.text-center
+              | Скачайте подробное 
+              span.color-olive описание 
+              br.no-br
+              span.color-olive формата 
+              | и 
+              span.color-olive финансовую модель
+            form.start-section__form(data-feedback-form)
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn.btn--tertiary(type="submit") скачать
+          .start-section__card.swiper-slide
+            img.start-section__item-icon(src="images/start-section-item-icon.png" loading="lazy" width="76" height="76" alt="icon")
+            .font-w-bold.font-s-35.text-up.color-olive С арендой офиса и <br> наймом сотрудников
+
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="786" height="512" alt="icon")
+            .font-w-bold.font-s-24.text-center
+              | Скачайте подробное 
+              span.color-olive описание 
+              br.no-br
+              span.color-olive формата 
+              | и 
+              span.color-olive финансовую модель
+            form.start-section__form(data-feedback-form)
+              input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+              input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+              button.btn.btn--tertiary(type="submit") скачать
+        .start-pagination.swiper-progress-start
